@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name rope)(type KiCad)(uri "$(KIPRJMOD)/rope.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,32 @@
+(export (version D)
+  (design
+    (source "/Users/eru/Documents/silly boards/business silk/Untitled.sch")
+    (date "Friday, November 03, 2017 'PMt' 12:02:24 PM")
+    (tool "Eeschema 4.0.7")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source Untitled.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref U1)
+      (value info)
+      (footprint info2:LOGO)
+      (libsource (lib info) (part info))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 59FC8D9F)))
+  (libparts
+    (libpart (lib info) (part info)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) info))))
+  (libraries
+    (library (logical info)
+      (uri info.lib)))
+  (nets))

@@ -1,0 +1,272 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D1
+U 1 1 5A31970E
+P 4600 2350
+F 0 "D1" H 4600 2450 50  0000 C CNN
+F 1 "LED" H 4600 2250 50  0000 C CNN
+F 2 "SillyComps:GlowBug_CircleRelief_Single_Side" H 4600 2350 50  0001 C CNN
+F 3 "" H 4600 2350 50  0001 C CNN
+	1    4600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 5A31973B
+P 4600 2650
+F 0 "D2" H 4600 2750 50  0000 C CNN
+F 1 "LED" H 4600 2550 50  0000 C CNN
+F 2 "SillyComps:GlowBug_CircleRelief_Single_Side" H 4600 2650 50  0001 C CNN
+F 3 "" H 4600 2650 50  0001 C CNN
+	1    4600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D3
+U 1 1 5A31975A
+P 4600 2950
+F 0 "D3" H 4600 3050 50  0000 C CNN
+F 1 "LED" H 4600 2850 50  0000 C CNN
+F 2 "SillyComps:GlowBug_CircleRelief_Single_Side" H 4600 2950 50  0001 C CNN
+F 3 "" H 4600 2950 50  0001 C CNN
+	1    4600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D4
+U 1 1 5A31977B
+P 4600 3250
+F 0 "D4" H 4600 3350 50  0000 C CNN
+F 1 "LED" H 4600 3150 50  0000 C CNN
+F 2 "SillyComps:GlowBug_CircleRelief_Single_Side" H 4600 3250 50  0001 C CNN
+F 3 "" H 4600 3250 50  0001 C CNN
+	1    4600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D5
+U 1 1 5A31979F
+P 4600 3550
+F 0 "D5" H 4600 3650 50  0000 C CNN
+F 1 "LED" H 4600 3450 50  0000 C CNN
+F 2 "SillyComps:GlowBug_CircleRelief_Single_Side" H 4600 3550 50  0001 C CNN
+F 3 "" H 4600 3550 50  0001 C CNN
+	1    4600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D6
+U 1 1 5A3197C6
+P 4600 3800
+F 0 "D6" H 4600 3900 50  0000 C CNN
+F 1 "LED" H 4600 3700 50  0000 C CNN
+F 2 "SillyComps:GlowBug_CircleRelief_Single_Side" H 4600 3800 50  0001 C CNN
+F 3 "" H 4600 3800 50  0001 C CNN
+	1    4600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D7
+U 1 1 5A3197EE
+P 4600 4100
+F 0 "D7" H 4600 4200 50  0000 C CNN
+F 1 "LED" H 4600 4000 50  0000 C CNN
+F 2 "SillyComps:GlowBug_CircleRelief_Single_Side" H 4600 4100 50  0001 C CNN
+F 3 "" H 4600 4100 50  0001 C CNN
+	1    4600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D8
+U 1 1 5A31981A
+P 4600 4400
+F 0 "D8" H 4600 4500 50  0000 C CNN
+F 1 "LED" H 4600 4300 50  0000 C CNN
+F 2 "SillyComps:GlowBug_CircleRelief_Single_Side" H 4600 4400 50  0001 C CNN
+F 3 "" H 4600 4400 50  0001 C CNN
+	1    4600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5A319848
+P 5050 2350
+F 0 "R1" V 5130 2350 50  0000 C CNN
+F 1 "R" V 5050 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4980 2350 50  0001 C CNN
+F 3 "" H 5050 2350 50  0001 C CNN
+	1    5050 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5A31988C
+P 5050 2650
+F 0 "R2" V 5130 2650 50  0000 C CNN
+F 1 "R" V 5050 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4980 2650 50  0001 C CNN
+F 3 "" H 5050 2650 50  0001 C CNN
+	1    5050 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5A3198BE
+P 5050 2950
+F 0 "R3" V 5130 2950 50  0000 C CNN
+F 1 "R" V 5050 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4980 2950 50  0001 C CNN
+F 3 "" H 5050 2950 50  0001 C CNN
+	1    5050 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5A3198F1
+P 5050 3250
+F 0 "R4" V 5130 3250 50  0000 C CNN
+F 1 "R" V 5050 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4980 3250 50  0001 C CNN
+F 3 "" H 5050 3250 50  0001 C CNN
+	1    5050 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5A319927
+P 5050 3550
+F 0 "R5" V 5130 3550 50  0000 C CNN
+F 1 "R" V 5050 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4980 3550 50  0001 C CNN
+F 3 "" H 5050 3550 50  0001 C CNN
+	1    5050 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 5A319994
+P 5050 3800
+F 0 "R6" V 5130 3800 50  0000 C CNN
+F 1 "R" V 5050 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4980 3800 50  0001 C CNN
+F 3 "" H 5050 3800 50  0001 C CNN
+	1    5050 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 5A3199D1
+P 5050 4100
+F 0 "R7" V 5130 4100 50  0000 C CNN
+F 1 "R" V 5050 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4980 4100 50  0001 C CNN
+F 3 "" H 5050 4100 50  0001 C CNN
+	1    5050 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R8
+U 1 1 5A319A10
+P 5050 4400
+F 0 "R8" V 5130 4400 50  0000 C CNN
+F 1 "R" V 5050 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4980 4400 50  0001 C CNN
+F 3 "" H 5050 4400 50  0001 C CNN
+	1    5050 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 2350 4900 2350
+Wire Wire Line
+	4750 2650 4900 2650
+Wire Wire Line
+	4750 2950 4900 2950
+Wire Wire Line
+	4750 3250 4900 3250
+Wire Wire Line
+	4750 3550 4900 3550
+Wire Wire Line
+	4750 3800 4900 3800
+Wire Wire Line
+	4750 4150 4750 4100
+Wire Wire Line
+	4750 4100 4900 4100
+Wire Wire Line
+	4750 4400 4900 4400
+Wire Wire Line
+	5200 1850 5200 4400
+Wire Wire Line
+	4450 1850 4450 4400
+Connection ~ 5200 2650
+Connection ~ 5200 2950
+Connection ~ 5200 3250
+Connection ~ 5200 3550
+Connection ~ 5200 3800
+Connection ~ 5200 4100
+Connection ~ 4450 2650
+Connection ~ 4450 2950
+Connection ~ 4450 3250
+Connection ~ 4450 3550
+Connection ~ 4450 3800
+Connection ~ 4450 4100
+$Comp
+L Conn_01x02 J1
+U 1 1 5A319B53
+P 4750 1650
+F 0 "J1" H 4750 1750 50  0000 C CNN
+F 1 "Conn_01x02" H 4750 1450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm_SMD_Pin1Right" H 4750 1650 50  0001 C CNN
+F 3 "" H 4750 1650 50  0001 C CNN
+	1    4750 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 1850 5200 1850
+Connection ~ 5200 2350
+Wire Wire Line
+	4750 1850 4450 1850
+Connection ~ 4450 2350
+$EndSCHEMATC
