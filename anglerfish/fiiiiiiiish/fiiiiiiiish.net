@@ -1,0 +1,62 @@
+(export (version D)
+  (design
+    (source C:/Users/notav/Documents/silly/anglerfish/fiiiiiiiish/fiiiiiiiish.sch)
+    (date "1/6/2018 14:08:39")
+    (tool "Eeschema 4.0.7")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source fiiiiiiiish.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref D1)
+      (value LED)
+      (footprint LEDs:LED_0805)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5A511E5C))
+    (comp (ref R1)
+      (value 100)
+      (footprint Resistors_SMD:R_0805)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5A511EAA)))
+  (libparts
+    (libpart (lib device) (part LED)
+      (description "LED generic")
+      (footprints
+        (fp LED*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name K) (type passive))
+        (pin (num 2) (name A) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistor)
+      (footprints
+        (fp R_*)
+        (fp R_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
+  (nets
+    (net (code 1) (name "Net-(D1-Pad2)")
+      (node (ref D1) (pin 2)))
+    (net (code 2) (name "Net-(D1-Pad1)")
+      (node (ref D1) (pin 1))
+      (node (ref R1) (pin 1)))
+    (net (code 3) (name "Net-(R1-Pad2)")
+      (node (ref R1) (pin 2)))))
